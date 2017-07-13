@@ -46,7 +46,6 @@ body{
     margin-bottom: 0;
 }
 section.mslider{
-
 }
 section.homeBlocks{
     margin-top: 40px
@@ -67,5 +66,5 @@ ul.product-categories{
     list-style: none;
 }
 ul.product-categories > li{
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
