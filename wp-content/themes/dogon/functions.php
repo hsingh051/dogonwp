@@ -565,3 +565,16 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+$args = array(
+	'name'          => __( 'Shop Sidebar', 'theme_text_domain' ),
+	'id'            => 'woocommerce_sidebar',
+	'description'   => '',
+    'class'         => '',
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget'  => '</div>',
+	'before_title'  => '<h2 class="widgettitle">',
+	'after_title'   => '</h2>' );
+
+ register_sidebar( $args );

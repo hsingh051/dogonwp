@@ -21,8 +21,11 @@
 	<link href="<?php echo get_template_directory_uri();?>/css/bootstrap.css" type="text/css" rel="stylesheet" />
 	<link href="<?php echo get_template_directory_uri();?>/css/custom.css" type="text/css" rel="stylesheet" />
 	<?php wp_head(); ?>
-
+	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+	</script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -44,5 +47,7 @@
 		  <a class="navbar-brand mlogo" href="#">Dog on Leash</a>
 		</div>
 		<?php wp_nav_menu( array( 'menu'=>'Main Menu','container_class' => 'navbar-collapse collapse mrgTop10', 'container_id' => 'navbar', 'menu_class' => 'nav navbar-nav navbar-right',)); ?>
-	</div>
+		</div>
 	</nav>
+
+	

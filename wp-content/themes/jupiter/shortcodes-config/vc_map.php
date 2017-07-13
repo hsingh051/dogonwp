@@ -1,6 +1,0 @@
-<?php
-/* empty file */
-
-
-
-
