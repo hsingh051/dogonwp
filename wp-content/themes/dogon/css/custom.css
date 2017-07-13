@@ -65,6 +65,12 @@ ul.product-categories{
     padding-left: 0;
     list-style: none;
 }
-ul.product-categories > li{
+ul.product-categories > li {
     text-transform: uppercase; 
+    font-family: 'Open Sans';
+    font-size: 21px;
+    color: #000000;
+}
+ul.product-categories > li > a {
+    color: #000;
 }
