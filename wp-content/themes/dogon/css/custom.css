@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:url('../fonts/Montserrat-Regular.ttf.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf.svg#Montserrat-Regular') format('svg'),
+        url('../fonts/Montserrat-Regular.ttf.eot'),
+        url('../fonts/Montserrat-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:url('../fonts/Montserrat-Bold.ttf.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf.svg#Montserrat-Bold') format('svg'),
+        url('../fonts/Montserrat-Bold.ttf.eot'),
+        url('../fonts/Montserrat-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'Montserrat-Regular';
+}
+.top_bar{
+	background:url(../images/topbar.jpg) repeat;
+	height: 40px;
+}
+
+.logo_bar{
+	height: 100px;
+}
+.mlogo{
+	font-family: 'Montserrat-Bold';
+	font-size: 36px;
+}
+.navbar{
+    background: #fff;
+    min-height: 100px;
+    margin-bottom: 0;
+}
+section.mslider{
+
+}
+section.homeBlocks{
+    margin-top: 40px
+}

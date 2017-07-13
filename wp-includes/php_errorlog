@@ -1,0 +1,94 @@
+[18-Aug-2015 10:13:44 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/comment-template.php on line 1662
+[18-Aug-2015 10:13:44 CST6CDT] PHP Fatal error:  Call to undefined function is_robots() in /home/dogonlea/public_html/wp-includes/template-loader.php on line 28
+[18-Aug-2015 10:13:44 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/category-template.php on line 912
+[18-Aug-2015 10:13:44 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/dogonlea/public_html/wp-includes/ms-default-constants.php on line 153
+[18-Aug-2015 10:13:48 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-scripts.php on line 19
+[18-Aug-2015 10:13:48 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss2.php on line 8
+[18-Aug-2015 10:13:48 CST6CDT] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/dogonlea/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[18-Aug-2015 10:13:48 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-styles.php on line 19
+[18-Aug-2015 10:13:48 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-atom-comments.php on line 8
+[18-Aug-2015 10:13:49 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/class-simplepie.php on line 5
+[18-Aug-2015 10:13:49 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[18-Aug-2015 10:13:50 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss.php on line 8
+[18-Aug-2015 10:13:51 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[18-Aug-2015 10:13:52 CST6CDT] PHP Fatal error:  Call to undefined function add_shortcode() in /home/dogonlea/public_html/wp-includes/media.php on line 815
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-styles.php on line 19
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  Class 'WP_Widget' not found in /home/dogonlea/public_html/wp-includes/default-widgets.php on line 14
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  Call to undefined function is_robots() in /home/dogonlea/public_html/wp-includes/template-loader.php on line 28
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  Call to undefined function is_admin() in /home/dogonlea/public_html/wp-includes/vars.php on line 23
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  Call to undefined function is_main_site() in /home/dogonlea/public_html/wp-includes/update.php on line 678
+[31-Oct-2015 15:22:50 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/class-feed.php on line 4
+[31-Oct-2015 15:22:51 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/comment-template.php on line 1680
+[31-Oct-2015 15:22:52 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration-functions.php on line 7
+[31-Oct-2015 15:22:52 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss.php on line 19
+[31-Oct-2015 15:22:53 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/dogonlea/public_html/wp-includes/ms-default-filters.php on line 16
+[31-Oct-2015 15:22:53 CST6CDT] PHP Fatal error:  Class 'IXR_Client' not found in /home/dogonlea/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[31-Oct-2015 15:22:53 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss.php on line 8
+[31-Oct-2015 15:22:53 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-atom-comments.php on line 8
+[31-Oct-2015 15:22:54 CST6CDT] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/dogonlea/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[31-Oct-2015 15:22:55 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/class-simplepie.php on line 5
+[31-Oct-2015 15:22:55 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/dogonlea/public_html/wp-includes/class-wp-embed.php on line 28
+[31-Oct-2015 15:22:55 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/script-loader.php on line 25
+[31-Oct-2015 15:22:56 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss-functions.php on line 8
+[31-Oct-2015 15:22:56 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-scripts.php on line 19
+[31-Oct-2015 15:22:57 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[31-Oct-2015 15:22:58 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rdf.php on line 8
+[31-Oct-2015 15:22:59 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/dogonlea/public_html/wp-includes/default-filters.php on line 17
+[31-Oct-2015 15:23:00 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-atom.php on line 8
+[31-Oct-2015 15:23:00 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/dogonlea/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Oct-2015 15:23:00 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss2-comments.php on line 8
+[31-Oct-2015 15:23:00 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/category-template.php on line 967
+[31-Oct-2015 15:23:01 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[31-Oct-2015 15:23:01 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/class-snoopy.php on line 6
+[31-Oct-2015 15:23:01 CST6CDT] PHP Fatal error:  Call to undefined function add_shortcode() in /home/dogonlea/public_html/wp-includes/media.php on line 831
+[31-Oct-2015 15:23:02 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/ms-settings.php on line 14
+[31-Oct-2015 15:23:03 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/post-template.php on line 1325
+[31-Oct-2015 15:23:03 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss2.php on line 8
+[31-Oct-2015 15:23:03 CST6CDT] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/dogonlea/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[31-Oct-2015 15:23:05 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/nav-menu-template.php on line 16
+[15-Nov-2015 09:28:40 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/nav-menu-template.php on line 16
+[15-Nov-2015 09:28:40 CST6CDT] PHP Fatal error:  Class 'WP_Widget' not found in /home/dogonlea/public_html/wp-includes/default-widgets.php on line 14
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss.php on line 8
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Call to undefined function is_admin() in /home/dogonlea/public_html/wp-includes/vars.php on line 23
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/dogonlea/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-atom.php on line 8
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-styles.php on line 19
+[15-Nov-2015 09:28:41 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rdf.php on line 8
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/dogonlea/public_html/wp-includes/ms-default-filters.php on line 16
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/dogonlea/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-atom-comments.php on line 8
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration-functions.php on line 7
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/dogonlea/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss.php on line 19
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Class 'IXR_Client' not found in /home/dogonlea/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/class-simplepie.php on line 5
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/comment-template.php on line 1680
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss2.php on line 8
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/class-feed.php on line 4
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function feed_content_type() in /home/dogonlea/public_html/wp-includes/feed-rss2-comments.php on line 8
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/category-template.php on line 967
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function is_robots() in /home/dogonlea/public_html/wp-includes/template-loader.php on line 28
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/ms-settings.php on line 14
+[15-Nov-2015 09:28:42 CST6CDT] PHP Fatal error:  Call to undefined function add_shortcode() in /home/dogonlea/public_html/wp-includes/media.php on line 831
+[15-Nov-2015 09:28:43 CST6CDT] PHP Fatal error:  Call to undefined function is_main_site() in /home/dogonlea/public_html/wp-includes/update.php on line 678
+[15-Nov-2015 09:28:43 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/dogonlea/public_html/wp-includes/class-wp-embed.php on line 28
+[15-Nov-2015 09:28:43 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss-functions.php on line 8
+[15-Nov-2015 09:28:43 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/script-loader.php on line 25
+[15-Nov-2015 09:28:43 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/dogonlea/public_html/wp-includes/post-template.php on line 1325
+[15-Nov-2015 09:28:44 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/class-snoopy.php on line 6
+[15-Nov-2015 09:28:44 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[15-Nov-2015 09:28:44 CST6CDT] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/dogonlea/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Nov-2015 09:28:44 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/dogonlea/public_html/wp-includes/default-filters.php on line 17
+[29-Mar-2016 04:29:50 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[29-Mar-2016 04:30:00 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[28-Nov-2016 21:20:39 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[28-Nov-2016 22:41:18 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 10:43:38 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 10:54:05 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 11:39:39 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 12:24:49 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration.php on line 7
+[03-Jan-2017 22:17:16 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-includes/functions.php on line 8
+[20-Jan-2017 11:15:46 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/registration-functions.php on line 7
+[10-Mar-2017 10:26:21 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss-functions.php on line 8
+[25-May-2017 10:52:32 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/dogonlea/public_html/wp-includes/rss-functions.php on line 8

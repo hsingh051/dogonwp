@@ -1,0 +1,8 @@
+[21-Jul-2015 08:14:08 CST6CDT] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Oct-2015 22:24:29 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[08-Jul-2016 04:40:24 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[08-Jul-2016 06:03:56 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[23-Jul-2016 19:26:24 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[08-Aug-2016 18:41:36 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[17-Sep-2016 21:52:55 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21
+[18-Sep-2016 09:11:03 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/local/php56/pear') in /home/dogonlea/public_html/wp-settings.php on line 21

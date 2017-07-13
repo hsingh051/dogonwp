@@ -1,0 +1,4 @@
+[16-Apr-2015 00:29:31 UTC] PHP Warning:  Creating default object from empty value in /home/dogonlea/public_html/wp-content/plugins/woothemes-updater/classes/class-woothemes-updater-self-updater.php on line 100
+[10-Jun-2015 19:31:29 UTC] PHP Warning:  Creating default object from empty value in /home/dogonlea/public_html/wp-content/plugins/woothemes-updater/classes/class-woothemes-updater-self-updater.php on line 100
+[10-Nov-2015 22:13:21 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/dogonlea/public_html/wp-content/plugins/woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-refund.php on line 40
+[03-Jan-2017 20:31:39 CST6CDT] PHP Fatal error:  Call to undefined function __() in /home/dogonlea/public_html/wp-admin/menu.php on line 23

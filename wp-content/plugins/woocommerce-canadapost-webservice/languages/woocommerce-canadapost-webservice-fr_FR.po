@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Canada Post Shipping Plugin for WooCommerce\n"
+"POT-Creation-Date: 2014-01-10 22:56-0500\n"
+"PO-Revision-Date: 2014-01-10 22:57-0500\n"
+"Last-Translator: TrueMedia <support@truemedia.ca>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../models/woocommerce_cpwebservice.php:20
+#: ../models/woocommerce_cpwebservice.php:499
+#: ../models/woocommerce_cpwebservice_tracking.php:180
+msgid "Canada Post"
+msgstr "Postes Canada"
+
+#: ../models/woocommerce_cpwebservice.php:57
+msgid "Regular Parcel"
+msgstr "Colis standard"
+
+#: ../models/woocommerce_cpwebservice.php:58
+msgid "Expedited Parcel"
+msgstr "Colis accélérés"
+
+#: ../models/woocommerce_cpwebservice.php:59
+msgid "Xpresspost"
+msgstr "Xpresspost"
+
+#: ../models/woocommerce_cpwebservice.php:60
+msgid "Xpresspost Certified"
+msgstr "Xpresspost certifié"
+
+#: ../models/woocommerce_cpwebservice.php:61
+msgid "Priority"
+msgstr "Priorité"
+
+#: ../models/woocommerce_cpwebservice.php:62
+msgid "Library Books"
+msgstr "Livres de bibliothèque"
+
+#: ../models/woocommerce_cpwebservice.php:63
+msgid "Expedited Parcel USA"
+msgstr "Colis accélérés É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:64
+msgid "Priority Worldwide Envelope USA"
+msgstr "Enveloppe Priorité Mondial – É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:65
+msgid "Priority Worldwide Pak USA"
+msgstr "Paquet Priorité Mondial – É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:66
+msgid "Priority Worldwide Parcel USA"
+msgstr "Colis Priorité Mondial – É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:67
+msgid "Small Packet USA Air"
+msgstr "Petits paquets-avion à destination des É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:68
+msgid "Tracked Packet USA"
+msgstr "Paquet repérable – É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:69
+msgid "Xpresspost USA"
+msgstr "Xpresspost É.-U."
+
+#: ../models/woocommerce_cpwebservice.php:70
+msgid "Xpresspost International"
+msgstr "Xpresspost International"
+
+#: ../models/woocommerce_cpwebservice.php:71
+msgid "International Parcel Air"
+msgstr "Colis-avion du régime international"
+
+#: ../models/woocommerce_cpwebservice.php:72
+msgid "International Parcel Surface"
+msgstr "Colis de surface du régime international"
+
+#: ../models/woocommerce_cpwebservice.php:73
+msgid "Priority Worldwide Envelope International"
+msgstr "Enveloppe Priorité Mondial – International"
+
+#: ../models/woocommerce_cpwebservice.php:74
+msgid "Priority Worldwide Pak International"
+msgstr "Paquet Priorité Mondial – International"
+
+#: ../models/woocommerce_cpwebservice.php:75
+msgid "Priority Worldwide parcel International"
+msgstr "Colis Prioritié Mondial – International"
+
+#: ../models/woocommerce_cpwebservice.php:76
+msgid "Small Packet International Air"
+msgstr "Petits paquets-avion du régime international"
+
+#: ../models/woocommerce_cpwebservice.php:77
+msgid "Small Packet International Surface"
+msgstr "Petits paquets de surface du régime international"
+
+#: ../models/woocommerce_cpwebservice.php:78
+msgid "Tracked Packet International"
+msgstr "Paquet repérable – International"
+
+#: ../models/woocommerce_cpwebservice.php:86
+msgid "Canada"
+msgstr "Canada"
+
+#: ../models/woocommerce_cpwebservice.php:87
+msgid "USA"
+msgstr "États-Unis"
+
+#: ../models/woocommerce_cpwebservice.php:88
+#: ../models/woocommerce_cpwebservice.php:664
+#: ../models/woocommerce_cpwebservice.php:765
+msgid "International"
+msgstr "International"
+
+#: ../models/woocommerce_cpwebservice.php:204
+msgid "Delivered by"
+msgstr "Livré par"
+
+#: ../models/woocommerce_cpwebservice.php:503
+#: ../models/woocommerce_cpwebservice.php:505
+msgid "Enable/Disable"
+msgstr "Activer / Désactiver"
+
+#: ../models/woocommerce_cpwebservice.php:507
+msgid "Enable Canada Post Webservice"
+msgstr "Activer le service de web de Postes Canada"
+
+#: ../models/woocommerce_cpwebservice.php:512
+msgid "Method Title"
+msgstr "Titre du méthode"
+
+#: ../models/woocommerce_cpwebservice.php:514
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ce contrôle le titre qu`on voit durant on passe la commande"
+
+#: ../models/woocommerce_cpwebservice.php:518
+msgid "Webservice Account Settings"
+msgstr "Paramètres de compte du service de web"
+
+#: ../models/woocommerce_cpwebservice.php:520
+msgid "Customer Number (Venture One)"
+msgstr "Numéro de client du propriétaire du courrier"
+
+#: ../models/woocommerce_cpwebservice.php:521
+msgid "Add Contract ID (Optional, Only if a Contract Customer)"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:525
+msgid "Contract ID (Optional, Only if a Contract Customer)"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:527
+msgid "API Username"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:529
+#, fuzzy
+msgid "API Password/Key"
+msgstr "API Key"
+
+#: ../models/woocommerce_cpwebservice.php:531
+msgid "Validate Credentials"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:536
+msgid "Origin Postal Code"
+msgstr "Origine code postal"
+
+#: ../models/woocommerce_cpwebservice.php:538
+msgid "The Postal Code that items will be shipped from."
+msgstr "Code postal de l'expéditeur"
+
+#: ../models/woocommerce_cpwebservice.php:539
+msgid ""
+"Warning: Postal Code is invalid. Required to be a valid Canadian postal code."
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:543
+#: ../models/woocommerce_cpwebservice_tracking.php:59
+#: ../models/woocommerce_cpwebservice_tracking.php:68
+msgid "Order Shipping Tracking"
+msgstr "Commandes de repérage"
+
+#: ../models/woocommerce_cpwebservice.php:545
+msgid "Enable Canada Post Tracking number feature on Orders"
+msgstr "Activer le numéro de repérage de Postes Canada"
+
+#: ../models/woocommerce_cpwebservice.php:546
+msgid "Enable Email notification when Parcel Tracking updates"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:546
+msgid ""
+"Automatic email notifications to customers when \"Mailed on\" or \"Delivered"
+"\" date is updated"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:547
+msgid "Display icons with Tracking information"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:551
+msgid "Development"
+msgstr "Programmation"
+
+#: ../models/woocommerce_cpwebservice.php:553
+msgid "Development Mode"
+msgstr "Mode Debug"
+
+#: ../models/woocommerce_cpwebservice.php:560
+msgid "Display Errors"
+msgstr "Afficher les Erreurs"
+
+#: ../models/woocommerce_cpwebservice.php:560
+msgid ""
+"Warning: Do not enable in production since debug/errors would be shown to "
+"customers"
+msgstr "Avertissement: n`activez pas "
+
+#: ../models/woocommerce_cpwebservice.php:565
+msgid "Add Margin"
+msgstr "Ajouter Marge"
+
+#: ../models/woocommerce_cpwebservice.php:567
+msgid "Add Margin Percentage (ex. 5%) to Shipping Cost"
+msgstr "Ajouter pourcentage de la marge (e.g. 5%) aux tarifs postaux"
+
+#: ../models/woocommerce_cpwebservice.php:571
+msgid "Box/Envelope Weight"
+msgstr "Box / Enveloppe Poids "
+
+#: ../models/woocommerce_cpwebservice.php:573
+msgid "Envelope/Box weight with bill/notes/advertising inserts (ex. 0.02kg)"
+msgstr ""
+"Enveloppe / Poid de la boite avec la facture / Publicité (e.g. 0.02 kg)"
+
+#: ../models/woocommerce_cpwebservice.php:577
+msgid "Delivery Dates"
+msgstr "Les Dates de Livraison"
+
+#: ../models/woocommerce_cpwebservice.php:579
+msgid "Days to Ship after order placed"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:582
+msgid "Show Estimated Delivery Dates"
+msgstr "Montrer les dates approximative de livraison"
+
+#: ../models/woocommerce_cpwebservice.php:587
+msgid "Enable Parcel Services"
+msgstr "Activer les services de colis"
+
+#: ../models/woocommerce_cpwebservice.php:589
+msgid "Canada Post Shipping Services"
+msgstr "Service de l’expédition de Postes Canada"
+
+#: ../models/woocommerce_cpwebservice.php:605
+msgid "Shipping Package/Box sizes"
+msgstr "Le Carton D'expédition Dimensions"
+
+#: ../models/woocommerce_cpwebservice.php:613
+msgid "Enable Shipping Box Sizes"
+msgstr "Activer le carton d'expédition Dimensions"
+
+#: ../models/woocommerce_cpwebservice.php:614
+msgid ""
+"Please define a number of envelope/package/box sizes that you use to ship. "
+"Dimensions are in cm."
+msgstr ""
+"S'il vous plaît définir un certain nombre d'enveloppe / paquet / box tailles "
+"que vous utilisez pour expédier. Les dimensions sont en cm."
+
+#: ../models/woocommerce_cpwebservice.php:619
+#: ../models/woocommerce_cpwebservice.php:746
+msgid "Box Dimensions (cm)"
+msgstr "Box Dimensions (cm)"
+
+#: ../models/woocommerce_cpwebservice.php:623
+#: ../models/woocommerce_cpwebservice.php:686
+#: ../models/woocommerce_cpwebservice.php:750
+msgid "LxWxH cm decimal form"
+msgstr "Longueur X Largeur X Hauteur CM"
+
+#: ../models/woocommerce_cpwebservice.php:625
+#: ../models/woocommerce_cpwebservice.php:752
+msgid "Box Name (internal)"
+msgstr "Nom de la box (interne)"
+
+#: ../models/woocommerce_cpwebservice.php:626
+#: ../models/woocommerce_cpwebservice.php:673
+#: ../models/woocommerce_cpwebservice.php:753
+#: ../models/woocommerce_cpwebservice.php:773
+#: ../models/woocommerce_cpwebservice_tracking.php:172
+msgid "Remove"
+msgstr "Supprimer"
+
+#: ../models/woocommerce_cpwebservice.php:630
+#: ../models/woocommerce_cpwebservice.php:677
+msgid "Add More +"
+msgstr "Ajouter plus +"
+
+#: ../models/woocommerce_cpwebservice.php:635
+msgid "Lettermail / Flat Rates"
+msgstr "Poste-lettres / Tarifs plat"
+
+#: ../models/woocommerce_cpwebservice.php:652
+msgid "Enable Lettermail / Flat Rates"
+msgstr "Activer Poste-lettres  / Tarifs plat"
+
+#: ../models/woocommerce_cpwebservice.php:653
+msgid "Define Lettermail rates based on Weight Range (kg)"
+msgstr "Définir les tariffs des poste-lettres avec la gamme du poids"
+
+#: ../models/woocommerce_cpwebservice.php:654
+msgid "Example: 0.1kg to 0.2kg: $3.80 Lettermail"
+msgstr "Exemple: 0,1 kg à 0,2 kg: 3,80 $ Poste-lettres"
+
+#: ../models/woocommerce_cpwebservice.php:666
+#: ../models/woocommerce_cpwebservice.php:766
+msgid "Label"
+msgstr "Label"
+
+#: ../models/woocommerce_cpwebservice.php:667
+#: ../models/woocommerce_cpwebservice.php:767
+msgid "Lettermail"
+msgstr "Poste-lettres"
+
+#: ../models/woocommerce_cpwebservice.php:668
+#: ../models/woocommerce_cpwebservice.php:768
+msgid "Cost"
+msgstr "Coût"
+
+#: ../models/woocommerce_cpwebservice.php:669
+#: ../models/woocommerce_cpwebservice.php:769
+msgid "Weight Range(kg)"
+msgstr "Gamme de poids(kg)"
+
+#: ../models/woocommerce_cpwebservice.php:670
+#: ../models/woocommerce_cpwebservice.php:770
+msgid "to"
+msgstr "à"
+
+#: ../models/woocommerce_cpwebservice.php:672
+#: ../models/woocommerce_cpwebservice.php:772
+msgid "Max items (0 for no limit)"
+msgstr "Produits Maximum (0 pour illimitée)"
+
+#: ../models/woocommerce_cpwebservice.php:681
+msgid ""
+"Maximum dimensions for Lettermail/Flat Rates (Also maximum volumetric weight)"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:785
+msgid "Logging"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:789
+msgid "Enable Rates Lookup Logging"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:790
+msgid ""
+"Captures most recent shipping rate lookup.  Recommended to be disabled when "
+"website development is complete. This option does not display any messages "
+"on frontend."
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:792
+msgid "Display most recent request"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:901
+#: ../models/woocommerce_cpwebservice.php:906
+#: ../models/woocommerce_cpwebservice.php:911
+#: ../models/woocommerce_cpwebservice.php:972
+#: ../models/woocommerce_cpwebservice.php:977
+#: ../models/woocommerce_cpwebservice.php:982
+#: ../models/woocommerce_cpwebservice.php:987
+#: ../models/woocommerce_cpwebservice.php:992
+#: ../models/woocommerce_cpwebservice_tracking.php:346
+#: ../models/woocommerce_cpwebservice_tracking.php:351
+#: ../models/woocommerce_cpwebservice_tracking.php:356
+#: ../models/woocommerce_cpwebservice_tracking.php:361
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: ../models/woocommerce_cpwebservice.php:917
+msgid "Cart Shipping Rates Request"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:919
+msgid "Item"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:919
+msgid "Qty"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:919
+msgid "Weight"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:919
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: ../models/woocommerce_cpwebservice.php:919
+msgid "Cubic"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:927
+msgid "Request / API Response"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:928
+msgid "After box packing/Volumetric weight calculation and Box/Envelope Weight"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:930
+msgid "Country"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:930
+msgid "State"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:930
+msgid "Destination"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:930
+#, fuzzy
+msgid "Shipping Weight"
+msgstr "Services d'expédition"
+
+#: ../models/woocommerce_cpwebservice.php:930
+#, fuzzy
+msgid "Volumetric Dimensions"
+msgstr "Box Dimensions (cm)"
+
+#: ../models/woocommerce_cpwebservice.php:944
+msgid "Rates displayed in Cart"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:956
+msgid "No rates displayed"
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice.php:959
+msgid ""
+"No log information.. yet.  Go to your shopping cart page and click on "
+"\"Calculate Shipping\"."
+msgstr ""
+
+#: ../models/woocommerce_cpwebservice_tracking.php:95
+#: ../models/woocommerce_cpwebservice_tracking.php:96
+msgid "Add Tracking Pin"
+msgstr "Ajouter Repérage Numéro"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Tracking Number"
+msgstr "Numéros de repérage"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Event"
+msgstr "Événement"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Shipping Service"
+msgstr "Services d'expédition"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Shipped"
+msgstr "A Livré"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Delivery"
+msgstr "Livraison"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:164
+msgid "Reference"
+msgstr "Référence"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:171
+msgid "Update"
+msgstr "Réactualiser"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:184
+msgid "Delivered"
+msgstr "Livré"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:186
+msgid "Expected Delivery"
+msgstr "Livraison prévue"
+
+#: ../models/woocommerce_cpwebservice_tracking.php:192
+msgid "No Tracking Data Found"
+msgstr "Repérage non Introuvable"
+
+#~ msgid "API ID"
+#~ msgstr "API ID"
+
+#~ msgid "Domestic"
+#~ msgstr "Canada"
