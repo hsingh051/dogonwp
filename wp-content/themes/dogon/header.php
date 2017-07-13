@@ -31,7 +31,16 @@
 <body <?php body_class(); ?>>
 	<div class="top_bar">
 		<div class="container">
-			df
+			
+			<?php wp_nav_menu( array( 'menu'=>'Top Bar','container_class' => 'top_right', 'container_id' => '', 'menu_class' => '')); ?>
+			<div class="top_search">
+				<form role="search" method="get" id="searchform" action="<?php home_url( '/' );?>" >
+					
+			    	<input class="tstext" type="text" placeholder="Enter your search here.." value="<?php echo get_search_query();?>" name="s" id="s" />
+				    <input type="image" class="tsimg" src='<?php echo get_template_directory_uri();?>/images/topsearch.jpg' />
+				    
+			    </form>
+			</div>
 		</div>
 	</div>
 
@@ -44,9 +53,13 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand mlogo" href="#">Dog on Leash</a>
+		  <a class="navbar-brand mlogo" href="<?php echo get_site_url();?>">Dog on Leash</a>
 		</div>
-		<?php wp_nav_menu( array( 'menu'=>'Main Menu','container_class' => 'navbar-collapse collapse mrgTop10', 'container_id' => 'navbar', 'menu_class' => 'nav navbar-nav navbar-right',)); ?>
+		<div class="fbbutton">
+			<img src="<?php echo get_template_directory_uri();?>/images/fb.png">
+		</div>
+		<?php wp_nav_menu( array( 'menu'=>'Main Menu','container_class' => 'navbar-collapse collapse mrgTop10', 'container_id' => 'navbar', 'menu_class' => 'nav navbar-nav navbar-right')); ?>
+			
 		</div>
 	</nav>
 

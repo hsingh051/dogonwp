@@ -38,7 +38,7 @@ body{
 }
 .mlogo{
 	font-family: 'Montserrat-Bold';
-	font-size: 36px;
+	font-size: 32px;
 }
 .navbar{
     background: #fff;
@@ -48,7 +48,7 @@ body{
 section.mslider{
 }
 section.homeBlocks{
-    margin-top: 40px
+    margin: 20px
 }
 footer .footerbar{
     background:url(../images/footerbar.jpg) repeat;
@@ -73,4 +73,72 @@ ul.product-categories > li {
 }
 ul.product-categories > li > a {
     color: #000;
+}
+.top_bar .top_right{
+    float: right;
+}
+.top_bar .top_right ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+
+}
+.top_bar .top_right ul li{
+    list-style: none;
+    float: left;
+    
+}
+.top_bar .top_right ul li a{
+   color: #000;
+    padding: 5px 20px;
+}
+.top_bar .top_right ul li.my_account{
+    background:url(../images/user.png) no-repeat;
+    background-position: 1px 2px;
+}
+.top_bar .top_right ul li.my_wishlist{
+    background:url(../images/wishlist.png) no-repeat;
+    background-position: 1px 2px;
+}
+.top_bar .top_right ul li.my_cart{
+    background:url(../images/cart.png) no-repeat;
+    background-position: 1px 2px;
+}
+.top_search{ float: right;  margin-top: 5px;}
+.top_search .tstext{
+     border: medium none;
+    float: left;
+    padding: 4px;
+}
+.top_search .tsimg{
+    float: left;
+}
+a.mlogo{
+    color: #000;
+}
+.container .navbar-header{
+
+}
+.navbar.navbar-default{
+    padding: 20px 0;
+}
+.navbar-default .navbar-brand {
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+.fbbutton{
+    float: right;
+}
+#navbar{
+    float: right;
+}
+.navbar-nav > li > a{
+    padding:15px 7px;
+}
+.tp-bannershadow.tp-shadow2{
+    display: none;
 }

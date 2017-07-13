@@ -33,7 +33,7 @@ get_header(); ?>
 							$image1 = get_field( "mimage_1" );
 							if( @$image1 ) {
 							?>	
-								<img src="<?php echo $image1['sizes']['medium']?>">						
+								<img width="100%" src="<?php echo $image1['sizes']['medium']?>">						
 							<?php
 							}
 						?>

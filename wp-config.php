@@ -22,7 +22,7 @@ define('DB_NAME', 'dogonwp');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '01Synergy!@#');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
