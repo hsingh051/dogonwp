@@ -48,7 +48,7 @@ body{
 section.mslider{
 }
 section.homeBlocks{
-    margin: 20px
+    margin: 20px 20px 30px;
 }
 footer .footerbar{
     background:url(../images/footerbar.jpg) repeat;
@@ -128,10 +128,11 @@ a.mlogo{
 .navbar-default .navbar-nav > li > a{
     color: #000;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
 }
 .fbbutton{
     float: right;
+    margin-top: 8px;
 }
 #navbar{
     float: right;
@@ -141,4 +142,229 @@ a.mlogo{
 }
 .tp-bannershadow.tp-shadow2{
     display: none;
+}
+.hmblck{
+    
+     background: rgba(0, 0, 0, 0) url("../images/hmbg.png") repeat scroll 0 0;
+  float: left;
+    margin-top: 220px;
+    padding: 10px 15px;
+    width: 100%;
+    
+}
+.homeBlocks .col-md-4 img{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+
+}
+.hmblck label{
+    color: #fff;
+    float: left;
+    font-size: 24px;
+}
+.btsee{
+     background: #edcc59 none repeat scroll 0 0;
+    border: medium none;
+    color: #000;
+    float: right;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.midsec{
+    margin-top: 10px;
+    background: url("../images/middlebar.jpg");
+    background-color: #dcd6da;
+    background-repeat: repeat-x;
+
+}
+
+.midseclb{
+     color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.hpyblock{
+    width: 31%;
+    float: left;
+    margin-right: 2%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.hpyblock img{
+    width: 100%;
+    height: 250px;
+}
+.hpyblocktxt{
+ float: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+}
+.hpyblocktxt label{
+    font-weight: normal;
+}
+
+.hpyblocktxt p{
+    margin:0;
+    font-size: 10px;
+    color: #333333;
+}
+.viewalltext{
+    float: left;
+    margin: 20px 0;
+}
+.viewalltext a{
+    color: #000;
+}
+.midcont ul.eventlist{
+ font-size: 12px;
+    list-style: outside none none;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+.midcont ul.eventlist li{
+    margin-bottom: 7px;
+}
+section.homefeature{
+    background-color: #fff;
+    padding: 30px 0;
+}
+.homefeature hr{
+    border-width: 2px;
+}
+.homefeature h1{
+    margin: -40px auto 0;
+    width: auto;
+}
+.homefeature h1 span{
+    background: #fff none repeat scroll 0 0;
+    padding: 0 20px;
+}
+.homefeature .ferbar{
+    text-align: center;
+}
+section.aboutsection{
+    background: url("../images/abtbg.png");
+    background-color: #dad4d4;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.hmabttext{
+     line-height: 25px;
+}
+.hmabttext h1{
+     font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.hmabttext p{
+    line-height: 25px;
+}
+.orbutton{
+      background: rgba(0, 0, 0, 0) url("../images/orbutton.png") no-repeat scroll 0 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    width: auto;
+}
+.brbutton{
+      background: rgba(0, 0, 0, 0) url("../images/brbutton.png") no-repeat scroll 0 0 !important;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: normal !important;
+    padding: 10px 25px !important;
+    text-transform: uppercase;
+    width: auto;
+}
+.hmabttext .orbutton{
+    margin-top: 10px;
+    float: left;
+}
+
+.fetprd{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+.fetprd ul.products li{
+    border: 1px solid #DCDCE4;
+    -webkit-box-shadow: 0px 3px 5px 2px rgba(220,220,228,1);
+-moz-box-shadow: 0px 3px 5px 2px rgba(220,220,228,1);
+box-shadow: 0px 3px 5px 2px rgba(220,220,228,1);
+}
+.fetprd .woocommerce ul.products li.product h3{
+    padding-right: 15px;
+    padding-left: 15px;
+     color: #000;
+}
+.fetprd .woocommerce ul.products li.product .price{
+    padding:5px 15px;
+    color: #e8c95d;
+    font-size: 16px;
+}
+
+.fetprd .woocommerce ul.products li.product .button{
+     margin: 0 0 20px 15px;
+}
+section.facesection{
+ background-color: #eff1f2;
+    padding: 20px 0 0;
+}
+section.facesection h1{
+    text-align: center;
+
+}
+.rowd{
+    margin-top: 20px;
+}
+.ftwidgets section{
+    width: 25%;
+    float: left;
+    padding-left: 15px; padding-right: 15px;
+}
+.ftwidgets section h2{
+     font-family: "Montserrat-Bold";
+    font-size: 22px;
+    font-weight: normal;
+    }
+.ftwidgets section .textwidget p{
+    font-size: 12px;
+    line-height: 19px;
+}
+.ftwidgets section .textwidget p .hptxt{
+    font-family: "Montserrat-Bold";
+    color: #efce5a;
+
+}
+.ftwidgets section .menu-footer-navigation-container ul{
+        padding-left: 15px;
+}
+.ftwidgets section .menu-footer-navigation-container ul a{
+    color: #000;
+    }
+.ftwidgets section .menu-footer-navigation-container ul li{
+    margin-bottom: 10px;
+}
+
+.ftleft{
+    float: left;
+    color: #fff;
+    padding-top: 25px;
+}
+.ftright{
+    float: right;
+    color: #fff;
+    padding-top: 25px;
 }

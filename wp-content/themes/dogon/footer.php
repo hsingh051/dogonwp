@@ -1,6 +1,15 @@
 <footer>
+	<section class="ftwidgets">
+		<div class="container">
+			
+		<?php dynamic_sidebar('Footer 1');?>
+		</div>
+	</section>
 	<div class="footerbar">
-		dfsdf	
+		<div class="container">
+			<p class="ftleft">©2017 Dog on Leash. All Rights Reserved.</p>
+			<p class="ftright">Montreal Web Design by PearlWhiteMedia.com</p>
+		</div>	
 	</div>
 </footer>
 <?php wp_footer(); ?>

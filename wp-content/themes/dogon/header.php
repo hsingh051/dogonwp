@@ -56,7 +56,7 @@
 		  <a class="navbar-brand mlogo" href="<?php echo get_site_url();?>">Dog on Leash</a>
 		</div>
 		<div class="fbbutton">
-			<img src="<?php echo get_template_directory_uri();?>/images/fb.png">
+			<a href="https://www.facebook.com/dogcollarsandleashes" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/fb.png"></a>
 		</div>
 		<?php wp_nav_menu( array( 'menu'=>'Main Menu','container_class' => 'navbar-collapse collapse mrgTop10', 'container_id' => 'navbar', 'menu_class' => 'nav navbar-nav navbar-right')); ?>
 			
