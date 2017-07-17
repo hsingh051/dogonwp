@@ -25,6 +25,25 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Open-Sans-Bold';
+    src:url('../fonts/Open-Sans-Bold.ttf.woff') format('woff'),
+        url('../fonts/Open-Sans-Bold.ttf.svg#Open-Sans-Bold') format('svg'),
+        url('../fonts/Open-Sans-Bold.ttf.eot'),
+        url('../fonts/Open-Sans-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open-Sans';
+    src:url('../fonts/Open-Sans.ttf.woff') format('woff'),
+        url('../fonts/Open-Sans.ttf.svg#Open-Sans') format('svg'),
+        url('../fonts/Open-Sans.ttf.eot'),
+        url('../fonts/Open-Sans.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	font-family: 'Montserrat-Regular';
 }
@@ -55,11 +74,15 @@ footer .footerbar{
     height: 72px;
 }
 .widget_product_categories .widgettitle{
-    font-family: 'Montserrat-Regular';
-    font-weight: bold;
-    text-transform: uppercase;
+     background: rgba(0, 0, 0, 0) url("../images/catlow.png") no-repeat scroll center bottom;
     color: #edcc58;
+    font-family: "Montserrat-Regular";
     font-size: 27px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-bottom: 65px;
+    text-transform: uppercase;
+
 }
 ul.product-categories{
     padding-left: 0;
@@ -67,12 +90,43 @@ ul.product-categories{
 }
 ul.product-categories > li {
     text-transform: uppercase; 
-    font-family: 'Open Sans';
-    font-size: 21px;
+    font-size: 18px;
     color: #000000;
+    font-family: 'Open-Sans-Bold';
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0;
 }
+
+
 ul.product-categories > li > a {
     color: #000;
+}
+ul.product-categories > li >ul {
+    display: none;
+     list-style-image: url(../images/subli.png);
+     padding-left: 20px;
+}
+ul.product-categories > li >ul > li{
+    font-size: 16px;
+    padding: 10px 0;   
+    border-bottom: 1px solid #f1f1f1; 
+    font-family: 'Open-Sans-Bold';
+    background-color: #fff;
+}
+
+ul.product-categories > li.myLink{
+    background:url(../images/plus.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+ul.product-categories > li.myLink.pm{
+    background:url(../images/minus.png);
+     background-repeat: no-repeat;
+    background-position: right 14px;
+
+}
+ul.product-categories > li >ul > li > a{
+    color: #666666;
 }
 .top_bar .top_right{
     float: right;
@@ -381,7 +435,7 @@ section.facesection h1{
     padding-top: 25px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-    color: #D8B942;
+    color: #edcc58;
 }
 .navbar-default .navbar-nav > li > a{
     text-transform: uppercase;
@@ -390,3 +444,132 @@ section.facesection h1{
     color: #fff;
 }
 .ftright a:hover,.ftright a:focus{ color: #fff; text-decoration: underline; }
+
+.woocommerce #content .woocommerce-breadcrumb{
+    margin-top: 20px;
+    text-align: right;
+    color: #edcc58;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.woocommerce #content .woocommerce-breadcrumb a,.woocommerce #content .woocommerce-breadcrumb span{
+    color: #000;
+}
+.topcatprd {
+     display: none;
+    float: left;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+}
+.topcatprd .woocommerce-pagination{
+    float: right;
+}
+
+.catorder{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.topcatprdinr .woocommerce-ordering label{
+    color: #7a7a7a;
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    padding-top: 3px;
+}
+.topcatprdinr .woocommerce-ordering select{
+     color: #7a7a7a;
+}
+.topcatprdinr{
+    width: 540px;
+    margin: 0 auto;
+}
+.woocommerce .topcatprd .topcatprdinr form.woocommerce-ordering  {
+    float: left;
+    width: 200px;
+}
+.woocommerce .topcatprd .topcatprdinr form.woocommerce-ordering select{
+    padding: 5px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li{
+    width: 30px;
+}
+.woocommerce nav.woocommerce-pagination ul li a{
+color: #8a7e88
+}
+
+.maincatpg ul.products  li h3{
+    color: #000000;
+    font-family: "Montserrat-Bold";
+}
+
+.woocommerce .maincatpg ul.products li.product .price{
+     color: #cc0000;
+     font-family: "Montserrat-Bold";
+}
+.woocommerce ul.products li.product .button.add_to_cart_button{
+    background-color: #cc0000;
+    color: #fff;
+}
+.prdmain{
+    margin-top: 10px; 
+}
+h3.titleprdmain{
+    float: left;
+    width: auto;
+    color: #edcc58;
+}
+.cprdmainbreadcrumb{
+    float: right;
+    width: auto;
+}
+.mainprdtop{
+    float: left;
+    width: 100%;
+}
+.prdmain #container{
+    float: left;
+    width: 100%;
+}
+ .woocommerce .cprdmainbreadcrumb .woocommerce-breadcrumb{
+    color: #edcc58;
+}
+.woocommerce .cprdmainbreadcrumb .woocommerce-breadcrumb a, .woocommerce .cprdmainbreadcrumb .woocommerce-breadcrumb span{
+    color: #000;
+ }
+
+ .woocommerce .prdmain div.product  p.price, .woocommerce .prdmain div.product  span.price{
+        color: #000;
+        font-size: 24px;
+        font-family: "Montserrat-Bold";
+        margin-bottom: 20px;
+ }
+
+
+  .woocommerce .prdmain div.product .summary.entry-summary div p{
+    margin-bottom: 20px;
+  }
+  .prdmainadd{
+    float: left;
+    width: 100%;
+  }
+   .prdmainadd .variations td.label{
+    margin-right: 15px;
+   }
+  .prdmainadd .variations td.label label{
+   color: #000;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+   .prdmainadd .variations td.value select{
+        padding: 10px;
+   }
+
+    .woocommerce .prdmain div.product  .quantity label{
+
+   }

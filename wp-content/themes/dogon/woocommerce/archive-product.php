@@ -29,8 +29,25 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_before_main_content' );
 	?>
 	<div class="col-md-3"><?php dynamic_sidebar('woocommerce_sidebar' ); ?></div> 
-	<div class="col-md-9">
-		<?php woocommerce_breadcrumb(); ?>
+	<div class="col-md-9 maincatpg">
+		<?php 
+		$args = array('delimiter' =>'<span>&nbsp;>>&nbsp;</span>' , );
+			woocommerce_breadcrumb($args); 
+		?>
+		<?php
+			// Change "Default Sorting" to "Our sorting" on shop page and in WC Product Settings
+			function my_change_default_sorting_name( $catalog_orderby ) {
+			    $catalog_orderby = str_replace("Default sorting", "Default", $catalog_orderby);
+			    $catalog_orderby = str_replace("Sort by popularity", "Popularity", $catalog_orderby);
+			    $catalog_orderby = str_replace("Sort by newness", "Newest", $catalog_orderby);
+			    $catalog_orderby = str_replace("Sort by price: low to high", "Low to High", $catalog_orderby);
+			    $catalog_orderby = str_replace("Sort by price: high to low", "High to Low", $catalog_orderby);
+			    return $catalog_orderby;
+			}
+			add_filter( 'woocommerce_catalog_orderby', 'my_change_default_sorting_name' );
+			add_filter( 'woocommerce_default_catalog_orderby_options', 'my_change_default_sorting_name' );
+		?>
+
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 			<!-- <h1 class="page-title"><?php //woocommerce_page_title(); ?></h1> -->
@@ -49,15 +66,20 @@ get_header( 'shop' ); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php
-				/**
-				 * woocommerce_before_shop_loop hook
-				 *
-				 * @hooked woocommerce_result_count - 20
-				 * @hooked woocommerce_catalog_ordering - 30
-				 */
-				do_action( 'woocommerce_before_shop_loop' );
-			?>
+			<div class="topcatprd">
+				<?php
+					/**
+					 * woocommerce_before_shop_loop hook
+					 *
+					 * @hooked woocommerce_result_count - 20
+					 * @hooked woocommerce_catalog_ordering - 30
+					 */
+					add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 10 );
+
+					do_action( 'woocommerce_before_shop_loop' );
+				?>
+			</div>
+
 
 			<?php woocommerce_product_loop_start(); ?>
 
@@ -111,11 +133,18 @@ get_header( 'shop' ); ?>
 	    $('.widget_product_categories ul ul').hide();
 	    $('.widget_product_categories ul li').click(function() {
 	        $(this).children('.subLink').toggle('slow');
+	        $('.widget_product_categories li:has(ul)').toggleClass('pm');
 	    });
 	    $('.widget_product_categories li:has(ul)').addClass('myLink');
 	    $('.widget_product_categories ul ul').addClass('subLink');
 
-	    $('.widget_product_categories .myLink > a').attr('href','javascript:void(0);')
+	    $('.widget_product_categories .myLink > a').attr('href','javascript:void(0);');
+	     $(".topcatprd").append("<div class='topcatprdinr'></div>");
+	    $(".woocommerce-ordering").appendTo('.topcatprdinr');
+	    $( ".topcatprdinr form select.per_page" ).parent( "form.woocommerce-ordering" ).addClass('addtxt');
+
+	    $(".addtxt").prepend( "<label>Show: &nbsp;</label>");
+	    $(".topcatprd").css('display','block');
 	});
 </script>	
 

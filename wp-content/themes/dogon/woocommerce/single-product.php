@@ -14,7 +14,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); ?>
-
+<section class="prdmain">
+	<div class="container">
+		<div class="mainprdtop">
+			<h3 class="titleprdmain">
+				<?php 
+					 while ( have_posts() ) : the_post();
+					 	the_title();
+					 endwhile; 
+				?>
+			</h3>
+			<div class="cprdmainbreadcrumb">
+				<?php
+					$args = array('delimiter' =>'<span>&nbsp;>>&nbsp;</span>' , );
+						woocommerce_breadcrumb($args); 
+				?>
+			</div>	
+		</div>
+		
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
@@ -22,6 +39,7 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
 		 * @hooked woocommerce_breadcrumb - 20
 		 */
+		remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); 
 		do_action( 'woocommerce_before_main_content' );
 	?>
 
@@ -46,7 +64,9 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
-		do_action( 'woocommerce_sidebar' );
+		//do_action( 'woocommerce_sidebar' );
 	?>
 
+	</div>
+</section>
 <?php get_footer( 'shop' ); ?>

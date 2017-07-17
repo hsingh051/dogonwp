@@ -868,7 +868,7 @@ jQuery( function( $ ) {
 
 			// Set the new pagenav options
 			for ( var i = 1; i <= total_pages; i++ ) {
-				options += '<option value="' + i + '">' + i + '</option>';
+				options += '<option  value="' + i + '">' + i + '</option>';
 			}
 
 			$( '.page-selector', page_nav ).empty().html( options );
