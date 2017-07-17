@@ -56,7 +56,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 				 * @hooked woocommerce_single_variation_add_to_cart_button - 20 Qty and cart button.
 				 */
 				do_action( 'woocommerce_single_variation' );
-
+				echo do_shortcode('[yith_wcwl_add_to_wishlist]');
 				/**
 				 * woocommerce_after_single_variation Hook
 				 */

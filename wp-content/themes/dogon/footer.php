@@ -12,6 +12,11 @@
 		</div>	
 	</div>
 </footer>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery("li.dropdown ul").addClass('dropdown-menu');
+	});
+</script>
 <?php wp_footer(); ?>
 
 </body>

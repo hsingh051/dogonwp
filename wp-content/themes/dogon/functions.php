@@ -579,10 +579,10 @@ $args = array(
 
  register_sidebar( $args );
 
- add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_button_text' );    // 2.1 +
+ add_filter( 'woocommerce_product_add_to_cart_html', 'woo_archive_custom_cart_button_text' );    // 2.1 +
  
 function woo_archive_custom_cart_button_text() {
  
-        return __( 'ADD TO CART', 'woocommerce' );
+        return __( "<i class='fa fa-shopping-cart' aria-hidden='true'></i> ADD TO CART", 'woocommerce' );
  
 } 
