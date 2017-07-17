@@ -561,15 +561,18 @@ h3.titleprdmain{
    .prdmainadd .variations td.label{
     margin-right: 15px;
    }
-  .prdmainadd .variations td.label label{
+  .prdmainadd .variations td.label label,  .prdmainadd .variations_button label{
    color: #000;
     font-size: 20px;
     padding-top: 10px;
   }
-   .prdmainadd .variations td.value select{
+   .prdmainadd .variations td.value select, .woocommerce .prdmainadd  .quantity .qty{
         padding: 10px;
    }
 
     .woocommerce .prdmain div.product  .quantity label{
-
+        margin-right: 15px;
    }
+    .woocommerce .prdmain div.product .single_variation .price,  .woocommerce .prdmain div.product .single_variation .stock.in-stock,.woocommerce .prdmain div.product .single_variation .stock.available-on-backorder{
+        display: none;
+    }
