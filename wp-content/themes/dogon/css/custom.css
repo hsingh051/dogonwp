@@ -258,6 +258,9 @@ section.aboutsection{
     background-repeat: no-repeat;
     height: 400px;
 }
+
+
+
 .hmabttext{
      line-height: 25px;
 }
@@ -287,6 +290,15 @@ section.aboutsection{
     padding: 10px 25px !important;
     text-transform: uppercase;
     width: auto;
+}
+.orbutton:hover, .orbutton:focus, .orbutton:active{
+    color: #000;
+    text-decoration: none;
+}
+
+.orbutton:hover, .orbutton:focus, .orbutton:active,.brbutton:hover, .brbutton:focus, .brbutton:active,.btsee:hover, .btsee:focus, .btsee:active  {
+    transform: scale(1.1);
+
 }
 .hmabttext .orbutton{
     margin-top: 10px;
@@ -368,3 +380,13 @@ section.facesection h1{
     color: #fff;
     padding-top: 25px;
 }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #D8B942;
+}
+.navbar-default .navbar-nav > li > a{
+    text-transform: uppercase;
+}
+.ftright a{
+    color: #fff;
+}
+.ftright a:hover,.ftright a:focus{ color: #fff; text-decoration: underline; }
