@@ -39,6 +39,7 @@
 					
 			    	<input class="tstext" type="text" placeholder="Enter your search here.." value="<?php echo get_search_query();?>" name="s" id="s" />
 				    <input type="image" class="tsimg" src='<?php echo get_template_directory_uri();?>/images/topsearch.jpg' />
+				    <input type="hidden" name="post_type" value="products">
 				    
 			    </form>
 			</div>
