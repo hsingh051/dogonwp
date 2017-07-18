@@ -586,3 +586,31 @@ function woo_archive_custom_cart_button_text() {
         return __( "<i class='fa fa-shopping-cart' aria-hidden='true'></i> ADD TO CART", 'woocommerce' );
  
 } 
+
+
+
+function the_breadcrumb() {
+		echo '<div class="cprdmainbreadcrumb">';
+		echo '<nav class="woocommerce-breadcrumb" itemprop="breadcrumb">';
+			if (!is_home()) {
+				echo '<a href="';
+				echo get_option('home');
+				echo '">';
+				echo 'Home';
+				echo "</a>";
+				if (is_page()) {
+					echo '<span>&nbsp;&gt;&gt;&nbsp;</span>';
+					echo the_title();
+					//echo '</li>';
+				}
+			}
+			//elseif (is_tag()) {single_tag_title();}
+			//elseif (is_day()) {echo"<li>Archive for "; the_time('F jS, Y'); echo'</li>';}
+			//elseif (is_month()) {echo"<li>Archive for "; the_time('F, Y'); echo'</li>';}
+			//elseif (is_year()) {echo"<li>Archive for "; the_time('Y'); echo'</li>';}
+			//elseif (is_author()) {echo"<li>Author Archive"; echo'</li>';}
+			//elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li>Blog Archives"; echo'</li>';}
+			//elseif (is_search()) {echo"<li>Search Results"; echo'</li>';}
+			echo '</nav>';
+		echo '</div>';
+}
