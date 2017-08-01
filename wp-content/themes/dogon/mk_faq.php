@@ -97,7 +97,7 @@ if ( is_array( $terms ) ) {
 $content = str_replace( ']]>', ']]&gt;', apply_filters( 'the_content', get_the_content() ) );
 
 $output .= '<div class="mk-toggle '.$style.'-style mk-faq-toggle ' . implode( ' ', $terms_slug ) . '">';
-$output .= '<span class="mk-toggle-title"><i class="fa fa-question qmargin"></i>'.get_the_title().'<i class="fa fa-angle-right  qmargin" aria-hidden="true"></i></span>';
+$output .= '<span class="mk-toggle-title"><i class="fa fa-question qmargin"></i>'.get_the_title().'<i class="fa fa-angle-right  qmargin change" aria-hidden="true"></i></span>';
 $output .= '<div class="mk-toggle-pane">'.$content.'</div>';
 $output .= '</div>';
 endwhile;

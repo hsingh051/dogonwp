@@ -25,7 +25,17 @@
 
 
 get_header(); ?>
-
+<section>
+	<div class="pgbanner">
+		<?php
+			while ( have_posts() ) : the_post();
+				if ( has_post_thumbnail() ) {
+				    the_post_thumbnail();
+				}
+			endwhile;
+		?>
+	</div>
+</section>
 
 
 <div class="container">
@@ -40,7 +50,16 @@ get_header(); ?>
 
 			?>
 			<div class="toppage">
-				<h3 class="titleprdmain"><?php the_title();?></h3>
+				<h3 class="titleprdmain">
+					<?php 
+						if(@get_field( "dpage_title" )){
+							echo get_field( "dpage_title" );
+						}else{
+							the_title();
+						}
+							
+					?>
+				</h3>
 				<?php the_breadcrumb();?>
 			</div>
 			<?php

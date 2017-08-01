@@ -1,0 +1,187 @@
+@media only screen and (min-device-width : 220px) and (max-device-width : 480px) {
+/* Styles */
+    .top_bar{ /*display: none;*/ }
+    .top_search{display: none;}
+    .top_bar .top_right ul{
+        margin: 0;
+    }
+    .top_bar .top_right ul li {
+     float: left;
+     list-style: outside none none;
+     margin-left: 20px;
+     text-align: right;
+    }
+    .fbbutton{ margin-top: 0; }
+    .navbar.navbar-default{ padding: 10px 0; }
+    .mlogo{ font-size: 28px; }
+    .col-md-4.col-sm-12 > img {
+        float: left;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    .hmblck {
+        font-size: 12px;
+        margin: 0;
+        padding: 10px;
+        margin-bottom: 15px;
+
+    }
+    .hmblck label {
+        color: #fff;
+        float: left;
+        font-size: 21px;
+        margin: 0;
+    }
+    .midseclb {
+         background: #ca9166 none repeat scroll 0 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    }
+    .hpyblock {
+        margin-bottom: 10px;
+    margin-top: 0;
+    width: 100%;
+    }
+    .midsec {
+        background: #dcd6da none repeat scroll 0 0;
+    }
+    .ferbar hr{
+        display: none;
+    }
+    .col-md-12.ferbar span {
+    float: left;
+    font-size: 20px;
+    padding: 0;
+    width: 100%;
+    }
+    .col-md-12.ferbar > h1 {
+    margin: 0;
+    }
+    .fetprd .woocommerce ul li{
+        width: 100% !important;
+    }
+    section.aboutsection{
+        height: auto;
+    }
+    section.facesection h1{
+        font-size: 20px;
+    }
+    .hmabttext .orbutton{
+        margin-bottom: 20px;
+    }
+    .ftwidgets section{
+        width: 100%;
+    }
+    footer .footerbar{
+        height: auto;
+    }
+    .ftright {
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    padding-top: 0;
+    text-align: center;
+}
+.ftleft {
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    padding-top: 15px;
+    width: 100%;
+}
+    
+.navbar-collapse.mrgTop10.collapse.in {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.navbar-right {
+    margin: 0;
+    width: 100%;
+}
+.sub-menu.dropdown-menu {
+    border: medium none;
+    box-shadow: none;
+    display: block !important;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+     list-style: outside none disc;
+    padding-left: 35px;
+}   
+.navbar-default .navbar-nav > li > a {
+    padding: 10px;
+
+}
+.dropdown-menu > li > a{
+    padding: 5px;
+}
+.widget_product_categories .widgettitle{
+    padding-bottom: 15px;
+}
+.woocommerce-breadcrumb{
+    float: left;
+    margin: 5px 0;
+}
+.topcatprd{
+    margin-top: 0;
+}
+.topcatprdinr {
+    float: right;
+    margin: 0 auto;
+    text-align: right;
+    width: 100%;
+}
+.woocommerce nav.woocommerce-pagination {
+    float: right;
+    text-align: center;
+}
+.woocommerce .topcatprd .topcatprdinr form.woocommerce-ordering{
+    float: right;
+}
+.woocommerce .maincatpg ul.products li {
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 25px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.woocommerce .maincatpg ul.products li.product h3, .related.products.prdm ul.products li.product h3 {
+    height: auto;
+}
+.related.products.prdm > h2{
+    font-size: 22px;
+}
+.woocommerce div.product form.cart, .woocommerce div.product p.cart{
+    margin-bottom: 0;
+}
+.woocommerce div.product div.images, .woocommerce div.product div.summary{
+    margin-bottom: 0;
+}
+.related.products.prdm ul.products li {
+    width: 100%;
+}
+#main p strong {
+    font-size: 16px !important;
+    line-height: 34px !important;
+}
+.wpcf7 .input input,.wpcf7 .input textarea{
+    width: 100%;
+}
+.toppage .cprdmainbreadcrumb{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.caddress{
+    line-height: 24px;
+}
+.caddress span.addresshead{
+    font-size: 22px;
+    line-height: 28px;
+}
+}

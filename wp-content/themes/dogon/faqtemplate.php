@@ -83,7 +83,26 @@ get_header(); ?>
 
 </div><!-- .content-area -->
 
+<script type="text/javascript">
+	$('.mk-toggle-title').on('click',function(){
+		$(this).next('.mk-toggle-pane').slideToggle();
+		$(this).children("i.change").toggleClass("fa-angle-right fa-angle-down");
 
+		
+	});
+	$(".filter-faq ul li a").on('click', function(){
+			
+			$(".mk-faq-container .mk-toggle").css('display','none');
+			$(".filter-faq ul li a").removeClass('current');
+			$(this).addClass('current');
+			var cl = $(this).attr('data-filter');
+			if(cl == ""){
+				$(".mk-faq-container .mk-toggle").slideToggle();
+			}else{
+				$(".mk-faq-container .mk-toggle."+cl).slideToggle();
+			}
+		});
+</script>
 
 <?php //get_sidebar(); ?>
 
